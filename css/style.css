@@ -1,0 +1,89 @@
+body{
+  background: black;
+}
+
+header{
+  padding-bottom: 50px;
+}
+
+.navbar-text{
+  color: white;
+}
+
+
+.navbar-brand{
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#navbar{
+  border: none;
+  background: #191919;
+}
+
+
+
+.nav-tabs .nav-link{
+  border: none;
+}
+
+.nav-tabs .nav-link:hover{
+  background-color: black;
+}
+
+
+.services section{
+  text-align: center;
+}
+
+.services section a{
+  text-decoration: none;
+}
+
+
+.main section {
+  color: white;
+  padding-bottom: 50px;
+}
+.main section h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+.main form{
+  padding-left: 80px;
+}
+
+/*footer*/
+footer{
+  background: #191919;
+  color: white;
+}
+/*footer*/
+
+
+/*-- social-icons --*/
+.social-icon a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 .2em;
+    border: 1px solid transparent;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+	line-height: 2.1em;
+}
+
+.social-icon a:hover {
+    color: #673ab7;
+	border-color: #673ab7;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+    border-radius: 50%;
+}
+/*-- //social-icons --*/
