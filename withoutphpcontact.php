@@ -17,6 +17,22 @@
 
   <form id="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
 
+    <!-- <div class="input-group">
+      <span class="input-group-addon">Name</span>
+      <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Email</span>
+      <input type="email" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Phone</span>
+      <input type="tel" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+    </div> -->
+
+
     <p><label for="name">Name:</label></p>
     <p><input type="text" name="name" id="name" tabindex="10" placeholder="first and last name" autofocus required></p>
 
@@ -24,7 +40,7 @@
     <p><input type="email" name="email" id="email" tabindex="20" placeholder="valid email address" required></p>
 
     <p><label for="phone">Phone:</label></p>
-    <p><input type="phone" name="phone" id="phone" tabindex="30" placeholder="valid phone number"></p>
+    <p><input type="tel" name="phone" id="phone" tabindex="30" placeholder="phone number"></p>
 
     <p><label for="url">Website:</label></p>
     <p><input type="url" name="url" id="url" tabindex="40"></p>
@@ -37,13 +53,15 @@
 
 </section>
 
+
+
 <pre>
   <?php
   if ($_GET) {
-    echo "content fo the $_GET array: <br> ";
+    echo "content for the $_GET array: <br> ";
     print_r($_GET);
   }elseif ($_POST) {
-    echo "content fo the $_POST array: <br> ";
+    echo "content for the $_POST array: <br> ";
     print_r($_POST);
   }
  ?>
