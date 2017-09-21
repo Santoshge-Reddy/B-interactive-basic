@@ -7,7 +7,7 @@ if (isset($_POST['send'])) {
     $to = 'Santosh <g.santosh.sunny@gmail.com>';
     $subject = 'Contact from B-interactive';
     $headers = [];
-    $headers[] = 'From: webmaster@example.com';
+    $headers[] = 'From: stylishsarat@gmail.com';
     $headers[] = 'Cc: another@example.com';
     $headers[] = 'Content-type: text/plain; charset=utf-';
     $authorized = null;
