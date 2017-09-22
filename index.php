@@ -12,7 +12,7 @@
 
               <div class="carousel-inner" id="carousel-size">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="images/pexels-photo-186076.jpeg" height="500px" alt="First slide">
+                  <img class="d-block w-100" src="image/slideshow/slideshow1.jpg" height="500px" alt="First slide">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Developer</h3>
                     <p>...</p>
@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="images/lamborghini-brno-racing-car-automobiles-39501.jpeg" height="500px" alt="Second slide">
+                  <img class="d-block w-100" src="image/slideshow/slideshow2.jpg" height="500px" alt="Second slide">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Tester</h3>
                     <p>...</p>
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="images/light-car-inside-black.jpg"  height="500px" alt="Third slide">
+                  <img class="d-block w-100" src="image/slideshow/slideshow3.jpg"  height="500px" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
                     <h3>Designer</h3>
                     <p>...</p>
@@ -58,28 +58,28 @@
 
     <section class="col-sm-6 col-lg-3">
       <a href="#" class="Development">
-      <img src="images/download.svg" alt="Development" width="304" height="236" class="img-thumbnail">
+      <img src="image/svg/development.svg" id="development" alt="Development" width="304" height="236" class="img-thumbnail">
       <h3>Development</h3>
       <p>We are having a good professional development team on our side to </p>
       </a>
     </section>
     <section class="col-sm-6 col-lg-3">
       <a href="#" class="Designing">
-      <img src="images/download.svg" alt="Designing" width="304" height="236" class="img-thumbnail">
+      <img src="image/svg/design.svg" id="design" alt="Designing" width="304" height="236" class="img-thumbnail">
       <h3>Designing</h3>
       <p>We have teamed up with best Designers with good experiance over years</p>
       </a>
     </section>
     <section class="col-sm-6 col-lg-3">
       <a href="#" class="Backend Support">
-      <img src="images/download.svg" alt="Backend Support" width="304" height="236" class="img-thumbnail">
+      <img src="image/svg/backendsupport.svg" id="backend"alt="Backend Support" width="304" height="236" class="img-thumbnail">
       <h3>Backend Support</h3>
       <p>Providing a back end support is a peice of cake for our team</p>
       </a>
     </section>
     <section class="col-sm-6 col-lg-3">
       <a href="#" class="Testing">
-      <img src="images/download.svg" alt="Testing"  width="304" height="236" class="img-thumbnail">
+      <img src="image/svg/testing.svg" id="testing" alt="Testing"  width="304" height="236" class="img-thumbnail">
       <h3>Testing</h3>
       <p>we have best testing team you have ever seen to assist you</p>
       </a>

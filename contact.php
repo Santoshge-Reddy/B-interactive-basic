@@ -23,7 +23,7 @@ if (isset($_POST['send'])) {
   include('include/header.php');
 ?>
 
-<img class="d-block w-100" src="images/light-car-inside-black.jpg" height="300px" alt="default">
+<img class="d-block w-100" src="image/default.jpg" height="300px" alt="default">
 
 <?php
   include('include/navbar.php');
