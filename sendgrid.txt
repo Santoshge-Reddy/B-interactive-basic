@@ -1,8 +1,0 @@
-api key  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
-
-
-
-heroku config
-=== b-interactive Config Vars
-SENDGRID_PASSWORD: ufculrlu9722
-SENDGRID_USERNAME: app77255249@heroku.com
