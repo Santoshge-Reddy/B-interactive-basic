@@ -17,7 +17,7 @@
           <a class="nav-link" href="contact.php"><i class="fa fa-envelope-o" aria-hidden="true"></i><br>Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#"><i class="fa fa-file-text" aria-hidden="true"></i><br>Blog</a>
+          <a class="nav-link" href="blog.php"><i class="fa fa-file-text" aria-hidden="true"></i><br>Blog</a>
         </li>
 
 
