@@ -1,29 +1,9 @@
 <?php
-$errors = [];
-$missing = [];
-if (isset($_POST['send'])) {
-    $expected = ['name', 'email', 'phone', 'url', 'comments'];
-    $required = ['name', 'email', 'phone'];
-    $to = 'Santosh <g.santosh.sunny@gmail.com>';
-    $subject = 'Contact from B-interactive';
-    $headers = [];
-    $headers[] = 'From: stylishsarat@gmail.com';
-    $headers[] = 'Cc: another@example.com';
-    $headers[] = 'Content-type: text/plain; charset=utf-';
-    $authorized = null;
-    require './include/process_mail.php';
-    if ($mailSent){
-      header('Location: thanks.php');
-      exit;
-    }
-}
-?>
-
-<?php
+  // formspree.io
   include('include/header.php');
 ?>
 
-<img class="d-block w-100" src="image/default.jpg" height="300px" alt="default">
+<img class="d-block w-100" src="images/light-car-inside-black.jpg" height="300px" alt="default">
 
 <?php
   include('include/navbar.php');
@@ -36,48 +16,33 @@ if (isset($_POST['send'])) {
 
   <h1>Contact</h1>
 
-<?php if ($_POST && ($suspect || isset($errors['mailfail']))) : ?>
-<p class="warning">Sorry, your mail couldn't be sent.</p>
-<?php elseif ($errors || $missing) : ?>
-<p class="warning">Please fix the item(s) indicated</p>
-<?php endif; ?>
-<form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+  <form id="form" method="POST" action="https://formspree.io/g.santosh.sunny@gmail.com">
+
+    <div class="col-lg-6">
+        <input    class="form-control"    type="text"   name="name"    id="name"     tabindex="10" placeholder="first and last name" autofocus required>
+        <br>
+        <input    class="form-control"    type="email"  name="email"   id="email"    tabindex="20" placeholder="valid email address" required>
+        <br>
+        <input    class="form-control"    type="tel"    name="phone"   id="phone"    tabindex="30" placeholder="phone number">
+        <br>
+        <input    class="form-control"    type="url"    name="url"     id="url"      tabindex="40" placeholder="Website">
+        <br>
+        <textarea class="form-control"    type="comt"   name="comment" id="comment"  tabindex="50" placeholder="comment please"  rows="5" cols="80"></textarea>
+        <br>
+        <input type="hidden" name="_next" value="thanks.php" />
+        <br>
+        <!-- <input type="text" name="_gotcha" style="display:none" />
+        <br>
+        <input type="hidden" name="_cc" value="another@email.com" /> -->
 
 
-    <p><label for="name">Name:
-        <?php if ($missing && in_array('name', $missing)) : ?>
-            <span class="warning">Please enter your name</span>
-        <?php endif; ?>
-    </label></p>
-    <p><input type="text" name="name" id="name" autofocus required></p>
 
-    <p><label for="email">Email:
-        <?php if ($missing && in_array('email', $missing)) : ?>
-            <span class="warning">Please enter your email address</span>
-        <?php elseif (isset($errors['email'])) : ?>
-            <span class="warning">Invalid email address</span>
-        <?php endif; ?>
-    </label></p>
-    <p><input type="email" name="email" id="email" required></p>
+        <input    class="btn btn-primary" type="submit" name="submit"  id="submit"   tabindex="60" value="Submit comment">
+    </div>
 
-    <p><label for="phone">Phone:
-          <?php if ($missing && in_array('phone', $missing)) : ?>
-              <span class="warning">Please enter your Phone number</span>
-          <?php endif; ?>
-      </label></p>
-      <p><input type="phone" name="phone" id="phone" required></p>
-
-      <p><label for="url">Website:</label></p>
-      <p><input type="url" name="url" id="url"></p>
-
-      <p><label for="comments">Comments:</label></p>
-      <p><textarea name="comments" id="comments"></textarea></p>
-
-  <p><input type="submit" name="send" id="send" value="Send Comments"></p>
-</form>
+  </form>
 
 </section>
-
 
 </div>
 
