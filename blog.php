@@ -13,7 +13,7 @@
     <div class="main container">
       <section>
         <h1>Blog</h1>
-        <iframe src="https://binteractiveco.wordpress.com/" width="100%" height="2000" frameborder="0" scrolling="yes"></iframe>
+        <iframe src="https://binteractiveco.wordpress.com/" width="100%" height="5000" frameborder="0" scrolling="no"></iframe>
       </section>
     </div>
 
