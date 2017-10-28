@@ -1,0 +1,12 @@
+{
+    "name": "user/b-interactive-basic",
+    "authors": [
+        {
+            "name": "Santoshge-Reddy",
+            "email": "g.santosh.sunny@gmail.com"
+        }
+    ],
+    "require": {
+       "sendgrid/sendgrid": "~5.0.9"
+    }
+}
