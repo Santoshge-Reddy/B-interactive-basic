@@ -1,23 +1,22 @@
-
 	<footer>
 
-    	<div class="container">
+		 <div class="container">
 
-    		<nav class="navbar navbar-nav">
+				<nav class="navbar navbar-nav">
 
-    			<div class="social-icon">
-    				<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
-    				<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
-    				<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
-    				<a href="#" class="social-button skype"><i class="fa fa-skype"></i></a>
-    				<br>
-    			</div>
+					<div class="social-icon">
+						<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+						<a href="#" class="social-button skype"><i class="fa fa-skype"></i></a>
+						<br>
+					</div>
 
-    			<p>&copy; 2017 Binteractive co. All Rights Reserved | Design by  <a href="" target="_blank">Saint</a> </p>
+					<p>&copy; 2017 Binteractive co. All Rights Reserved | Design by  <a href="" target="_blank">Santosh</a> </p>
 
-    		</nav>
+				</nav>
 
-    	</div>
+			</div>
 
 	</footer>
 

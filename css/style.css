@@ -22,6 +22,16 @@ header{
   margin-right: 60px;
 }
 
+
+
+@media screen and (max-width: 650px){
+  #navigation {
+    text-align: center;
+    width: 100%; 
+  }
+}
+
+
 #navbar{
   border: none;
   background: #191919;
@@ -80,7 +90,12 @@ header{
 
 
 /*footer*/
-footer{
+
+
+footer {
+  /*position: fixed;
+  width: 100%;
+  bottom: 0;*/
   background: #191919;
   color: white;
 }
